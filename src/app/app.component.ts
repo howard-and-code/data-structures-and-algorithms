@@ -8,5 +8,5 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.less'
 })
 export class AppComponent {
-  title = 'data-structures-and-algorithms';
+  title = 'Data Structures & Algorithms';
 }

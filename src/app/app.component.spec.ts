@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'data-structures-and-algorithms' title`, () => {
+  it(`should have the 'Data Structures & Algorithms' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('data-structures-and-algorithms');
+    expect(app.title).toEqual('Data Structures & Algorithms');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, data-structures-and-algorithms');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Data Structures & Algorithms');
   });
 });
