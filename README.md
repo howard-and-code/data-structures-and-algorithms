@@ -14,7 +14,7 @@ A web app to hold demonstrations of data structures and algorithms that are disc
 
 ## References
 
-Angular CLI: [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
-Angular v19: [Angular v19 documentation ](https://v19.angular.dev/overview) page.
+- Angular CLI: [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- Angular v19: [Angular v19 documentation ](https://v19.angular.dev/overview) page.
 
 
