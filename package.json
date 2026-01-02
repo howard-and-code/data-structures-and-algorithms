@@ -6,7 +6,10 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "pages": "npm run docs-clear && npm run build-pages && mv dist/data-structures-and-algorithms/browser docs",
+    "build-pages": "ng build --configuration production --base-href https://howard-and-code.github.io/data-structures-and-algorithms/",
+    "docs-clear": "rm -rf docs"
   },
   "private": true,
   "dependencies": {
